@@ -1,4 +1,4 @@
-# webmethods.io-Capsule-CROM-Community-Connector
+# webmethods.io-Capsule-CRM-Community-Connector
 This is a Webmethods.io community connector for [Capsule CRM](https://capsulecrm.com/), a Customer Relationship Management (CRM) SaaS web application and mobile app. The connector uses the [Capsule REST API](https://developer.capsulecrm.com/) to make HTTP requests to access or modify a resource. The actions supported by this community connector are:
 
 #### 1. [List Cases](https://developer.capsulecrm.com/v2/operations/Case)
@@ -34,7 +34,7 @@ The connector has been built with [wmiocli](https://docs.webmethods.io/integrati
 
 ### [Getting the API key](https://developer.capsulecrm.com/v2/overview/authentication)
 API requests are made via HTTPS using the api.capsulecrm.com subdomain. Each request must be authenticated with a user's Bearer token. As If this connector is a one-off integration for internal use, we can generate a token directly from our Capsule account. You can create these from the My Preferences > API Authentication Tokens page in your Capsule account:
-![image](https://user-images.githubusercontent.com/16189220/75323237-805ce180-589a-11ea-974f-6dcc1e0aa78f.png)
+![API Key](https://user-images.githubusercontent.com/16189220/75323237-805ce180-589a-11ea-974f-6dcc1e0aa78f.png)
 
 ### Installing
 1. Clone the repo `https://github.com/yuvanmytri/webmethods.io-Capsule-CRM-Community-Connector.git`.
@@ -51,7 +51,7 @@ To test, you can execute `wmio test`.
 ## Deployment
 Execute `wmio deploy` to deploy this connector to your webmethods.io tenant. And `wmio unpublish` to unpublish the published connector app along with triggers and actions associated with the app.
 
-![BambooHR Connector](https://user-images.githubusercontent.com/16189220/74911246-3b403780-53e2-11ea-8789-be34e42a1d4f.png)
+![Capsule CRM](https://user-images.githubusercontent.com/16189220/75323330-ab473580-589a-11ea-8e20-0d54dc270a8e.png)
 
 ## Built With
 Node v8.14.0 and [wmiocli](https://docs.webmethods.io/integration/developer_guide/connector_builder/#gsc.tab=0), webmethod.io's iPaaS Connector Builder CLI.
