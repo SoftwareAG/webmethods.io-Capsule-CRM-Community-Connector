@@ -1,6 +1,8 @@
 # webmethods.io-Capsule-CRM-Community-Connector
 This is a Webmethods.io community connector for [Capsule CRM](https://capsulecrm.com/), a Customer Relationship Management (CRM) SaaS web application and mobile app. The connector uses the [Capsule REST API](https://developer.capsulecrm.com/) to make HTTP requests to access or modify a resource. 
-![image](https://user-images.githubusercontent.com/16189220/75323483-feb98380-589a-11ea-8058-5fa98f842001.png)
+
+![image](https://user-images.githubusercontent.com/16189220/75323654-4fc97780-589b-11ea-94de-83d9d9a1e955.png)
+
 The actions supported by this community connector are:
 
 #### 1. [List Cases](https://developer.capsulecrm.com/v2/operations/Case)
