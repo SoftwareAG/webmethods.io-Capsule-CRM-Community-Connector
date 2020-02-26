@@ -1,0 +1,64 @@
+{
+  "name": "CapsuleCRM",
+  "description": "This is a community connector for Capsule CRM",
+  "triggers": [],
+  "actions": [
+    "/v1/list_parties",
+    "/v1/show_party",
+    "/v1/list_employees",
+    "/v1/list_tasks",
+    "/v1/list_users",
+    "/v1/show_current_user",
+    "/v1/show_user",
+    "/v1/list_task_categories",
+    "/v1/show_task_category",
+    "/v1/list_cases",
+    "/v1/list_cases_by_party",
+    "/v1/show_case"
+  ],
+  "version": 1,
+  "auth_type": "custom",
+  "docs_link": "http://docs.example.com",
+  "appId": "97623774-114a-43ba-a339-ce6401950652",
+  "guid": "eaa1511e-0ed3-47b5-bd2f-b61df43b52f2",
+  "connectionUid": "capsulecrm_1582616295611",
+  "lookup": true,
+  "lookup_attachments": [
+    {
+      "lookup_id": "get_parties",
+      "action_id": "/v1/show_party",
+      "field_id": "partyId",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_parties",
+      "action_id": "/v1/list_employees",
+      "field_id": "partyId",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_users",
+      "action_id": "/v1/show_user",
+      "field_id": "userId",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_task_categories",
+      "action_id": "/v1/show_task_category",
+      "field_id": "categoryId",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_parties",
+      "action_id": "/v1/list_cases_by_party",
+      "field_id": "partyId",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_cases",
+      "action_id": "/v1/show_case",
+      "field_id": "caseId",
+      "dependencies": []
+    }
+  ]
+}

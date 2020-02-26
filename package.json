@@ -1,0 +1,9 @@
+{
+  "name": "capsulecrm",
+  "version": "1.0.0",
+  "description": "This is a community connector for Capsule CRM",
+  "dependencies": {
+    "request": "2.55.0",
+    "@webmethodsio/cli-sdk": "*"
+  }
+}
