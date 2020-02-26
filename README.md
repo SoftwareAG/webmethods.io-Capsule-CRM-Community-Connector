@@ -34,10 +34,10 @@ The connector has been built with [wmiocli](https://docs.webmethods.io/integrati
 
 ### [Getting the API key](https://developer.capsulecrm.com/v2/overview/authentication)
 API requests are made via HTTPS using the api.capsulecrm.com subdomain. Each request must be authenticated with a user's Bearer token. As If this connector is a one-off integration for internal use, we can generate a token directly from our Capsule account. You can create these from the My Preferences > API Authentication Tokens page in your Capsule account:
-
+![image](https://user-images.githubusercontent.com/16189220/75323237-805ce180-589a-11ea-974f-6dcc1e0aa78f.png)
 
 ### Installing
-1. Clone the repo `https://github.com/yuvanmytri/webmethods.io-BambooHR-Community-Connector.git`.
+1. Clone the repo `https://github.com/yuvanmytri/webmethods.io-Capsule-CRM-Community-Connector.git`.
 2. Run `npm install -g @webmethodsio/wmiocli`.
 3. Login to your webmethods.io tenant using `wmio login`.
 4. Execute `wmio init` to get started.
