@@ -42,7 +42,7 @@ API requests are made via HTTPS using the api.capsulecrm.com subdomain. Each req
 ![API Key](https://user-images.githubusercontent.com/16189220/75323237-805ce180-589a-11ea-974f-6dcc1e0aa78f.png)
 
 ### Installing
-1. Clone the repo `https://github.com/yuvanmytri/webmethods.io-Capsule-CRM-Community-Connector.git`.
+1. Clone the repo `https://github.com/SoftwareAG/webmethods.io-Capsule-CRM-Community-Connector.git`.
 2. Run `npm install -g @webmethodsio/wmiocli`.
 3. Login to your webmethods.io tenant using `wmio login`.
 4. Execute `wmio init` to get started.
