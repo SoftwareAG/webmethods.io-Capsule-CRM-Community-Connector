@@ -38,6 +38,7 @@ The connector has been built with [wmiocli](https://docs.webmethods.io/integrati
 
 ### [Getting the API key](https://developer.capsulecrm.com/v2/overview/authentication)
 API requests are made via HTTPS using the api.capsulecrm.com subdomain. Each request must be authenticated with a user's Bearer token. As If this connector is a one-off integration for internal use, we can generate a token directly from our Capsule account. You can create these from the My Preferences > API Authentication Tokens page in your Capsule account:
+
 ![API Key](https://user-images.githubusercontent.com/16189220/75323237-805ce180-589a-11ea-974f-6dcc1e0aa78f.png)
 
 ### Installing
