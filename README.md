@@ -1,3 +1,5 @@
+# !!! Archived!!! This repository is no longer relevant!
+
 # webmethods.io-Capsule-CRM-Community-Connector
 This is a Webmethods.io community connector for [Capsule CRM](https://capsulecrm.com/), a Customer Relationship Management (CRM) SaaS web application and mobile app. The connector uses the [Capsule REST API](https://developer.capsulecrm.com/) to make HTTP requests to access or modify a resource. 
 
